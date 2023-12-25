@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <item
+        android:icon="@drawable/stop"
+        android:id="@+id/stop"
+        android:visible="true"
+        android:title="Filter Stop"/>
+    <item
+        android:icon="@drawable/share"
+        android:id="@+id/share"
+        android:title="Share App"/>
+    <item
+        android:icon="@drawable/more"
+        android:id="@+id/moreapps"
+        android:visible="true"
+        android:title="More Apps"/>
+    <item
+        android:icon="@drawable/rateus"
+        android:id="@+id/rate_us"
+        android:visible="true"
+        android:title="Rate us"/>
+    <item
+        android:id="@+id/feedback"
+        android:visible="false"
+        android:title="Feedback"/>
+    <item
+        android:icon="@drawable/policy"
+        android:id="@+id/policy"
+        android:visible="true"
+        android:title="Privacy Policy"/>
+    <item
+        android:icon="@drawable/exit"
+        android:id="@+id/quit"
+        android:title="Exit"/>
+</menu>
